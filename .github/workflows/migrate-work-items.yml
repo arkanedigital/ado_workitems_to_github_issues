@@ -6,20 +6,20 @@ on:
       ado-org:
         description: 'ado-org'
         required: true
-        default: 'jjohanning0798'
+        default: 'arkanedigital'
       ado-project:
         description: 'ado-project'
         required: true
-        default: 'PartsUnlimited'
+        default: 'Twixel'
       ado_area_path:
         description: 'ADO area path to migrate - uses the UNDER operator'
         required: true
-        default: 'migrate'
+        default: 'Twixel'
       ado_migrate_closed_workitems:
         description: 'Migrate closed work items'
         required: true
         type: boolean
-        default: 'true'
+        default: 'false'
       ado_production_run:
         description: tag migrated work items with migrated-to-github and add discussion comment
         required: true
@@ -28,11 +28,11 @@ on:
       gh-org:
         description: 'gh-org'
         required: true
-        default: 'joshjohanning-org'
+        default: 'arkanedigital'
       gh-repo:
         description: 'gh-org'
         required: true
-        default: 'migrate-ado-workitems'
+        default: 'twixel.ai'
       gh_update_assigned_to:
         description: 'Update Assigned To'
         required: true
